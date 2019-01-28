@@ -1,0 +1,8 @@
+(executable
+  (name thirty)
+  (public_name thirty)
+  (libraries
+    virtual_dom
+    async_kernel
+    core_kernel )
+  (preprocess (pps js_of_ocaml-ppx ppx_jane ppx_deriving.eq )))
